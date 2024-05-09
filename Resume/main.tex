@@ -130,7 +130,6 @@
 \fontfamily{cmr}\selectfont
 %----------HEADING-----------------
 
-
 \textbf{\huge \name} \\
 \vspace{1mm}
 {\raisebox{0.0\height}{\footnotesize \faPhone}\ +91-\phone} \hspace{8mm}
@@ -139,130 +138,102 @@
 \href{https://www.linkedin.com/in/shashank-agarwal-pio/}{\raisebox{0.0\height}{\footnotesize \faLinkedin}\ {LinkedIn Profile}}
 \vspace{-3mm}
 
-
-
-
 %-----------EDUCATION-----------
 \section{\textbf{Education}}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {Punjab Engineering College, Chandigarh}{CGPA: 6.04}
-      {B.Tech In Electrical Engineering}{2021-Present}
-    \resumeSubheading
-      {SGGS Collegiate Public School, Chandigarh}{Percentage: 86.8\%}
-      {11th and 12th}{2019-2021}
-    \resumeSubheading
-      {The Gurukul, Panchkula}{Percentage: 85\%}
-      {9th and 10th}{2017-2019}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\resumeSubheading
+{Punjab Engineering College, Chandigarh}{CGPA: 6.04}
+{B.Tech In Electrical Engineering}{2021-Present}
+\resumeSubheading
+{SGGS Collegiate Public School, Chandigarh}{Percentage: 86.8\%}
+{11th and 12th}{2019-2021}
+\resumeSubheading
+{The Gurukul, Panchkula}{Percentage: 85\%}
+{9th and 10th}{2017-2019}
+\resumeSubHeadingListEnd
 \vspace{-5.5mm}
 %
 
-
+%-----------EXPERIENCE-----------------
+\section{\textbf{Experience}}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Statcon Electronics India Limited}{January - June, 2024}
+{Embedded Software}{Noida}
+\resumeItemListStart
+\item{Studied and gained proficiency in PLL (Phase-Locked Loop), Park Clarke Transform, PI (Proportional-Integral) controller, and feedforward control concepts through self-directed learning and online resources.}
+\item{Practiced implementing these concepts in MATLAB simulations to understand their practical applications in control systems engineering.}
+\item{Explored the Zeigler-Nichols method for PI tuning to optimize controller performance in various control systems applications.}
+\item{Demonstrated ability to apply theoretical knowledge to real-world problems, enhancing understanding of electrical engineering principles and advanced control techniques.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
 
 %-----------PROJECTS-----------------
 \section{\textbf{Projects}}
 \resumeSubHeadingListStart
-    \resumeProject
-      {Servo Tester} %Project Name
-      {Designed a Servo tester to create a user-friendly tool for accurately testing and calibrating servo motors} %Project Name, Location Name
-      {2nd Semester} %Event Dates
+\resumeProject
+{CanSat Ground Station} %Project Name
+{Developing a ground station for CanSat using React Vite.} %Project Name, Location Name
+{Ongoing} %Event Dates
 
-      \resumeItemListStart
-        \item {An AVR Microcontroller in combination with a LCD display was used to create a user interface for the Servo Tester}
-        \item {This Servo Tester was created to provide a easy and fast way to test and calibrate servo motors used in robotics and automation}
-    \resumeItemListEnd
-    \vspace{-2mm}
-    
-    \resumeProject
-      {Dino Game} %Project Name
-      {Made a replica of the famous chrome dino game} %Project Name, Location Name
-      {3rd Semester} %Event Dates
+\resumeItemListStart
+\item {Utilizing React Vite to create a web-based ground station interface for receiving and analyzing data from CanSat missions.}
+\item {Implementing real-time data visualization and telemetry features to monitor the CanSat's performance during flight.}
+\item {Integrating features for data logging, mission planning, and remote control functionalities into the ground station software.}
+\item {GitHub repository : \href{https://github.com/Gagan-Space/Cansat-Ground-Station.git}{https://github.com/Gagan-Space/Cansat-Ground-Station}}
+\resumeItemListEnd
+\vspace{-2mm}
 
-      \resumeItemListStart
-        \item {The game was made using a esp8266 Xtensa based 32 Bit Microcontroller, it can calculate the score of the player and even store the higest score in its memory}
-        \item {This was made as a fun project to explore the capabilities of the esp8266 Microcontroller}
-    \resumeItemListEnd
-    \vspace{-2mm}
+\resumeProject
+{Dino Game} %Project Name
+{Made a replica of the famous Chrome Dino game} %Project Name, Location Name
+{3rd Semester} %Event Dates
 
-    \resumeProject
-      {Lipo Charger} %Project Name
-      {Designed and fabricated a Lithium battery charger} %Project Name, Location Name
-      {3rd Semester} %Event Dates
+\resumeItemListStart
+\item {Developed using an ESP8266 Xtensa-based 32 Bit Microcontroller, capable of scoring and storing the highest score in memory.}
+\item {Exploration project to showcase the capabilities of the ESP8266 Microcontroller.}
+\resumeItemListEnd
+\vspace{-2mm}
 
-      \resumeItemListStart
-        \item {The lipo charging circuit was designed and then fabricated on a custom designed PCB, using a tp4056 lithium battery charger IC}
-        \item {The circuit can charge a Lithium Polymer cell and is suitable for embedding in low power application that require to be powered through a battery}
-    \resumeItemListEnd
-    \vspace{-2mm}
+\resumeProject
+{LiPo Charger} %Project Name
+{Designed and fabricated a lithium battery charger} %Project Name, Location Name
+{3rd Semester} %Event Dates
 
-    \resumeProject
-      {Hovercraft} %Project Name
-      {Made a RC model of a hovercraft for Techkriti 2023} %Project Name, Location Name
-      {4th Semester} %Event Dates
+\resumeItemListStart
+\item {Designed and fabricated a LiPo charging circuit using a custom-designed PCB and TP4056 lithium battery charger IC.}
+\item {Suitable for embedding in low-power applications powered by lithium polymer cells.}
+\resumeItemListEnd
+\vspace{-2mm}
 
-      \resumeItemListStart
-        \item {Developed the circuit and code for the control of the hovercraft using a wireless radio transmitter}
-        \item {This was a team project made for HoverMania organised at Techkriti 2023 at IIT Kanpur}
-    \resumeItemListEnd
-    \vspace{-2mm}
-
-    \resumeProject
-      {Smart Plug (Minor Project)} %Project Name
-      {Currently working on a IOT Wall plug} %Project Name, Location Name
-      {Ongoing} %Event Dates
-
-      \resumeItemListStart
-        \item {This is an ongoing project aimed at developing a Smart wall outlet that can track the energy consumtion of appliance through out the day}
-        \item {The aim of the project is to monitor the energy consumption of the appliance through out the day, and reduce the energy usage through automations}
-    \resumeItemListEnd
-    \vspace{-2mm}
-
-    \resumeProject
-      {Gesture Control RC Car} %Project Name
-      {A work in progress project, to control a RC car using hand gesture} %Project Name, Location Name
-      {Ongoing} %Event Dates
-
-      \resumeItemListStart
-        \item {Currently in the process of developing a system to control a rc car using hand gestures, a Inertial Measurement Unit (IMU) is being used to detect the hand gestures}
-        \item {This type of gesture control finds many application in robotics and medical fields}
-    \resumeItemListEnd
-    \vspace{-2mm}
-
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
 \vspace{-5.5mm}
-
-
 
 %-----------Technical skills-----------------
 \section{\textbf{Technical Skills and Interests}}
- \begin{itemize}[leftmargin=0.05in, label={}]
-    \small{\item{
-     \textbf{Technical Skills}{:Arduino, C++, Analog Electronics, Digital Electronics, PCB Designing, Circuit Simulation} \\
-     \textbf{Soft Skills}{: Reverse Engineering, Problem Solving, Team Player, Critical Thinking} \\
-     \textbf{Areas of Interest}{: } \\
-     \textbf{Languages}{: English, Hindi}\\
-    }}
- \end{itemize}
- \vspace{-16pt}
-
-
+\begin{itemize}[leftmargin=0.05in, label={}]
+  \small{\item{
+        \textbf{Technical Skills}{:Arduino, C++, Analog Electronics, Digital Electronics, PCB Designing, Circuit Simulation, MATLAB, Web Technologies, ROS, Linux} \\
+        \textbf{Soft Skills}{: Reverse Engineering, Problem Solving, Team Player, Critical Thinking} \\
+        \textbf{Areas of Interest}{: Computers and its history, Operating Systems, Robotics, Control Algorithms, Digital Signal Processing, Image Processing} \\
+        \textbf{Languages}{: English, Hindi}\\
+        }}
+\end{itemize}
+\vspace{-16pt}
 
 %-----------Achievements-----------------
 \section{\textbf{Achievements}}
 \vspace{-0.4mm}
 \resumeSubHeadingListStart
 \resumePOR{2nd Prize in Electrovis} % Award
-    { organised by IEEE PEC student chapter} % Event
-    {2022} %Event Year
-    
-\resumePOR{1st Priz e in Robo Race } % Award
-    {organised by Robotics Society PEC at PECFEST} % Event
-    {2022} %Event Year
+{ organised by IEEE PEC student chapter} % Event
+{2022} %Event Year
+
+\resumePOR{1st Prize in Robo Race } % Award
+{organised by Robotics Society PEC at PECFEST} % Event
+{2022} %Event Year
 \resumeSubHeadingListEnd
 \vspace{-5mm}
 
-
-
 %-------------------------------------------
-\end{document} 
+\end{document}
