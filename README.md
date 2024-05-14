@@ -1,6 +1,6 @@
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) I am Witty Wizard
 ========================================================================================================================================
-
+[![trophy](https://github-profile-trophy.vercel.app/?username=Witty-Wizard)](https://github.com/Witty-Wizard/github-profile-trophy)
 * 🌍  I'm based in Mars
 * ✉️  You can contact me at [shashankmarch27@gmail.com](mailto:shashankmarch27@gmail.com)
 * 🧠  I'm learning Robot Operating System
