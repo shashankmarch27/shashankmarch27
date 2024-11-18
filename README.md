@@ -2,7 +2,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 ========================================================================================================================================
 <img src= "https://komarev.com/ghpvc/?username=Witty-Wizard">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=Witty-Wizard)](https://github.com/Witty-Wizard/github-profile-trophy)
+[![trophy](https://trophies-three.vercel.app/?username=Witty-Wizard&rank=SECRET,SSS,SS,S,AAA,AA,A,B,C)](https://github.com/Witty-Wizard/github-profile-trophy)
 * 🌍  I'm based in Mars
 * ✉️  You can contact me at [shashankmarch27@gmail.com](mailto:shashankmarch27@gmail.com)
 * 🧠  I'm learning Robot Operating System
